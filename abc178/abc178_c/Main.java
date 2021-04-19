@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.*;
+
 public class Main {
 	public static int N;
 	public static int mod = 1000000007;
@@ -11,16 +11,19 @@ public class Main {
 		// double ans;
 		// ans = Math.pow(10,N) - Math.pow(9,N)*2 + Math.pow(8,N);
 		Long ans;
-		Long pow10 = 10;
-		Long pow09 = 9;
-		Long pow8 = 8;
+		Long pow10 = (long)1;
+		Long pow09 = (long)1;
+		Long pow08 = (long)1;
 		for (int i = 0; i < N ;i++ ) {
-			pow10*=10;
-			pow09*=9;
-			pow8*=10;
+			pow10=(pow10*10)%mod;
+			pow09=(pow09*9)%mod;
+			pow08=(pow08*8)%mod;
 		}
-		ans = pow10 - pow09*2 + pow8;
+		ans = pow10 - pow09*2 + pow08;
 		ans = ans%mod;
+		if (ans < 0) {
+				ans+=mod;
+		}
 		System.out.println(ans);
 	}
 
