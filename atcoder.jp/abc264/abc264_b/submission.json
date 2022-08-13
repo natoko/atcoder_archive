@@ -1,0 +1,12 @@
+{
+	"id": 34003708,
+	"epoch_second": 1660394056,
+	"problem_id": "abc264_b",
+	"contest_id": "abc264",
+	"user_id": "natoko",
+	"language": "Java (OpenJDK 11.0.6)",
+	"point": 200,
+	"length": 1296,
+	"result": "AC",
+	"execution_time": 105
+}
