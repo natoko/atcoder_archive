@@ -1,0 +1,12 @@
+{
+	"id": 36932536,
+	"epoch_second": 1669994397,
+	"problem_id": "arc152_a",
+	"contest_id": "arc152",
+	"user_id": "natoko",
+	"language": "Java (OpenJDK 11.0.6)",
+	"point": 400,
+	"length": 1246,
+	"result": "AC",
+	"execution_time": 337
+}
